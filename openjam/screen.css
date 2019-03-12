@@ -1,1 +1,155 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+body {
+    background-color: #82ddb5;
+    background-image: 
+        url(img/illustration.gif), url(img/texture.jpg);
+    background-position: center 280px, left top ;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 800px, auto, 800px;
+    margin: 0, 0, 800px;
+    font-family: 'quicksand';
+    
+}
+
+#nav{
+    
+    background-color: #67bb99
+    border-bottom: 2px dashed #487;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#logo {
+    max-width: 360px;
+      
+}
+
+#header {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+#description, #date {
+    max-width: 220px;
+    
+}
+
+.resgister_button {
+    background-color: #E43;
+    border: 2px dashed #A43;
+    border-radius: 2em;
+    color:#FFF;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 25px;
+    padding:15px 30px;
+    
+}
+
+#what {
+    background-color: rgba(200,240,220,0.8);
+    padding:1em 12em 3em;
+    color: #347788;
+    margin-top: 430px
+
+}
+#what h1 {
+    text-align: center
+    
+    
+}
+#what h1 p {
+    
+
+}
+
+#what #sponsor_logos {
+ text-align: center   
+}
+
+#sponsor_logos img {
+    width:350px;
+    
+}
+
+
+#what h2 { 
+text-align: center;
+}
+
+
+
+#why {
+    color: #347788;
+    padding:1em 12em 3em;
+    background-color: #b6ead3;
+}
+#why h1{ 
+text-align: center
+}
+
+
+#where {
+    color: #bb4488;
+    background-image: url(img/map.gif);
+    background-position: center;
+    padding: 20px 0;
+    height: 500px
+    
+    
+        
+}
+
+#where h1{
+    text-align: center;
+}
+
+#where p{
+    text-align: right;
+       padding: 1em 8em 3em; 
+}
+
+
+#when {
+    color: white;
+    padding: 1em 12em; 
+    background-color: #439998;
+    background-image: url(img/wires.png);
+    background-position: left; 
+    background-repeat: repeat-x repeat-y;  
+    background-size: 500px;
+     
+    
+}
+
+#when h1 {
+    text-align: center;
+}
+#when h2 {
+    text-align: center;
+}
+#when h3 {
+    text-align: center;
+}
+#when h4 {
+    text-align: center;
+}
+
+#who {
+    background-color: white;
+    padding: 1em 12em 3em;
+    color: #347788;
+}
+#who h1 {
+    text-align: center;
+}
+
+#footer{ 
+width:50px;
+
+}
