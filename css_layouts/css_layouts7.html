@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html> 
+
+    <head>
+        <title> Layout 7 </title>
+        <style>
+            div {outline: 1px solid black;}
+         
+            #container{
+                width: 800px;
+                margin: auto;
+                display: grid;
+               
+            }
+            
+            #top-blue{
+                background-color: blue;
+                display: grid;
+                grid-template-columns: 33% 66%
+               
+            }
+            #top-green{
+                background-color: lime;
+                height: 500px
+            }
+            #top-red{
+                background-color: red; 
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                }
+            #middle-blue{
+                background-color: blue;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+            #bottem-green{
+                background-color: lime;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                
+            }
+            #bottem-red{
+                background-color: red;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                
+            }
+            #bottem-blue{
+                background-color: blue; 
+                height: 120px;
+            }
+            
+            .yellow1{
+                background-color: yellow;
+                height: 50px;
+                margin: 25px;
+            }
+            
+            .yellow2{
+                background-color: yellow;
+                height: 100px;
+                margin: 20px;
+                grid-column: 1/4;
+            }
+            
+            .yellow3{
+                background-color: yellow;
+                height: 200px;
+                margin: 20px;
+            }
+            
+            .yellow4{
+                background-color: yellow;
+                height: 80px;
+                margin: 25px;
+                grid-column: 1/5;
+            }
+            
+            .yellow5{
+                background-color: yellow;
+                height: 150px;
+                margin: 20px;
+            }
+            
+            .yellow6{
+                background-color: yellow;
+                height: 150px;
+                margin: 20px;
+                grid-column: 1/4;
+            }
+            
+            .yellow7{
+                background-color: yellow;
+                height: 400px;
+                margin: 20px;
+            }
+            
+            .yellow8{
+                background-color: yellow;
+                height: 100px;
+                margin: 20px;
+                grid-column: 1fr-4fr;
+            }
+            
+             .yellow9{
+                background-color: yellow;
+                height: 400px;
+                margin: 20px;
+                grid-column: 1fr-3fr;
+                
+            }
+            .yellow10{
+                background-color: yellow;
+                height: 200px;
+                margin: 20px;
+                
+                
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+        <div id="container">
+            
+            <div id= "top-blue">
+                <div class= "yellow1"></div>
+                <div class= "yellow1"></div>
+            </div>
+            
+            <div id= "top-green"></div>
+            <div id= "top-red">
+                <div class= "yellow2"></div>
+                
+                <div class= "yellow3"></div>
+                <div class= "yellow3"></div>
+                <div class= "yellow3"></div>
+            </div>
+            
+            <div id= "middle-blue">
+                <div class= "yellow4"></div>
+                
+                <div class= "yellow5"></div>
+                <div class= "yellow5"></div>
+                <div class= "yellow5"></div>
+                <div class= "yellow5"></div>
+                <div class= "yellow5"></div>
+                <div class= "yellow5"></div>
+                <div class= "yellow5"></div>
+                <div class= "yellow5"></div>
+                <div class= "yellow5"></div>
+                <div class= "yellow5"></div>
+                <div class= "yellow5"></div>
+                <div class= "yellow5"></div>
+                
+            </div>
+            
+            <div id= "bottem-green">
+                <div class= "yellow6"></div>
+                
+                <div class= "yellow7"></div>
+                <div class= "yellow7"></div>
+                <div class= "yellow7"></div>
+            </div>
+            
+        
+            <div id= "bottem-red">
+                <div class= "yellow8"></div>
+                
+                <div class= "yellow9"></div>
+                   
+                <div class= "yellow10"></div>
+                
+            </div>
+              
+            <div id= "bottem-blue"></div>
+            
+        </div>
+      
+    </body>
+
+
+</html>
