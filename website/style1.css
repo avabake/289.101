@@ -1,0 +1,46 @@
+
+
+body {
+    background-color:#b0e3e4;
+    background-image: 
+        url(header_everything.png); 
+    background-position: center, ;
+    background-repeat: no-repeat, repeat-x;
+    background-size: cover;
+    margin:0;
+    font-family:.....;       
+}
+
+
+    #nav {
+    padding-top: 100px;
+    font-size: 3rem;
+    text-align: center;
+    color: #0d1e32;
+        
+   
+}
+
+.dark blue {
+    color: #0d1e32;
+}
+
+.light blue {
+    color: #b0e3e4;
+}
+
+.cream {
+    color: #eeece0;
+}
+
+
+    #ABOUT US { 
+        background-image: url(top_spat.png);
+        color: #0d1e32;
+    
+    }
+
+    .LEARN ABOUT OUR PRODUCTS {
+         background-image: url(bottome_splat.png);
+    }
+
